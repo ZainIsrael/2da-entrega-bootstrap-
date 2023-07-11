@@ -1,0 +1,16 @@
+@import '../base/vars'; 
+@import '../base/maps';
+@import '../base/listas';
+
+header{
+    nav{
+        background-color: $fondo-header;
+        div{
+            a{
+                img{
+                    width: $logo-size;
+                }
+            }
+        }
+    }
+}

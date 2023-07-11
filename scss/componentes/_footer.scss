@@ -1,0 +1,24 @@
+@import '../base/vars'; 
+@import '../base/maps';
+@import '../base/listas';
+
+
+footer{
+    background-color: map-get($footer-principal, bg);
+    text-align: center;
+    div{
+        padding: nth($margin-size, 3);
+        ul{
+            list-style: none;
+            li{
+                text-decoration: underline;
+                a{
+                    font-size: map-get($footer-principal, letra );
+                    &hhover{
+                        background-color: $color-link;
+                    }
+                }
+            }
+        }
+    }
+}
