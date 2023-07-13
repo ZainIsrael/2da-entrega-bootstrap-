@@ -1,6 +1,11 @@
 @import './base/vars'; 
 @import './base/maps';
+@import './base/extend';
 
 @import './componentes/header';
 @import './componentes/main';
 @import './componentes/footer';
+
+.img-portada{
+    @extend %cover; 
+}

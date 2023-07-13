@@ -1,3 +1,8 @@
+.img-portada {
+  height: 300px;
+  object-fit: cover;
+}
+
 header nav {
   background-color: rgba(0, 0, 0, 0.4);
 }
