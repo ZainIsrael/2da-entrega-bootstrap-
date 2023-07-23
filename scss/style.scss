@@ -1,6 +1,8 @@
 @import './base/vars'; 
 @import './base/maps';
 @import './base/extend';
+@import 'base/mixin';
+
 
 @import './componentes/header';
 @import './componentes/main';
@@ -8,4 +10,9 @@
 
 .img-portada{
     @extend %cover; 
+}
+.titulo-principal {
+    @include titulo;
+    padding: 4px;
+    margin-top: 10px;
 }

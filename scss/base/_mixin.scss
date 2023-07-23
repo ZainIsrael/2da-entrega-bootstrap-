@@ -1,0 +1,10 @@
+@import 'vars'; 
+@mixin titulo {
+    font: {
+      family: Verdana;
+      size: 40px;
+      weight: bold;
+    }
+    text-align: center;
+    color: $color-titulo;
+  }
